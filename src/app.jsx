@@ -1,8 +1,14 @@
 import React from 'react'
+import Layout from './layout/Layout'
+import Hero from './components/Hero'
+import About from './components/About'
 
 const App = () => {
   return (
-    <h1 className='font-bold text-3xl'>App</h1>
+    <Layout>
+      <Hero/>
+      <About/>
+    </Layout>
   )
 }
 
