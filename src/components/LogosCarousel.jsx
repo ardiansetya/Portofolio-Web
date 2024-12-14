@@ -2,8 +2,8 @@ import React from "react";
 
 const LogosCarousel = () => {
   return (
-    <section className="bg-gray-900 py-12">
-      <div className="container mx-auto">
+    <section className="bg-gray-900 py-12 ">
+      <div className="container mx-auto w-2/3 ">
         <h2 className="text-2xl font-bold text-center text-gray-300 mb-6">
           Technologies I Use
         </h2>
@@ -19,9 +19,8 @@ const LogosCarousel = () => {
                 "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg", // HTML5
                 "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg", // CSS3
                 "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg", // Node.js
-                "https://golang.org/dl/golang-logo.svg", // Go (from official Go developers)
-                "https://raw.githubusercontent.com/microsoft/TypeScript-Website/master/logo.svg", // TypeScript (from GitHub)
-                "https://raw.githubusercontent.com/tailwindlabs/tailwindcss.com/main/public/logos/tailwindcss.svg", // Tailwind CSS (from GitHub)
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/215px-Go_Logo_Blue.svg.png     ",
+               " https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/120px-Tailwind_CSS_Logo.svg.png"
               ].map((src, index) => (
                 <img
                   key={i * 10 + index}

@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="bg-gray-800 text-gray-300 py-16 px-12 rounded-xl">
+    <section id="about" className="bg-gray-800 text-gray-300 py-16 px-12 rounded-xl">
       <div className="container mx-auto flex flex-col md:flex-row items-center px-4">
         {/* Bagian Foto */}
         <div className="w-full md:w-1/2 mb-8 md:mb-0">
